@@ -1,19 +1,23 @@
 body{
     background-color: white;
     color: #555;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Times New Roman', Times, serif;
     font-size: 16px;
     margin: 0;
 }
+
 .brandeis-title{
     overflow: hidden;
     word-spacing: normal;
-    padding: 10px 10px 10px 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     height:100%;
     letter-spacing: normal;
 }
 
-.diversity-title{
+
+.diversity{
     background-color: #f4f4f4;
     color: black;
     width: 100%;
@@ -22,18 +26,68 @@ body{
     padding: 10px;
     box-shadow:slategray;
     text-align: center;
+    align-content: center;
 }
 
-.diversity-title p{
+#div-title:hover{
+    text-decoration: underline;
+}
+
+
+#div-title{
+    text-decoration: none;
+    color: black;
+}
+
+
+.diversity strong{
+    word-spacing: normal;
+    font-size: 43px;
+}
+
+/* .diversity small{
     width: 100%;
-    padding: 0;
+    padding-bottom: 0;
+    margin-top: 20px;
+    font-size: 13.5px;
+} */
+
+#div-subtitle a{
+    font-size: 12px;
+    text-decoration: none;
+    color: navy;
+}
+
+#div-subtitle a:hover{
+    text-decoration: underline;
+    color: navy;
+}
+
+#div-subtitle small{
     font-size: 15px;
 }
 
-/* .diversity-title h1{
-    width: 60%;
-    text-align: center;
-}  */
+#div-subtitle research{
+    font-size: 13px;
+    font-weight: bolder;
+    color: black
+}
+
+/*  */
+@media(max-width:1000px) {
+
+    #div-subtitle{
+        visibility: collapse;
+    }
+
+    .diversity{
+        min-height: 80px;
+        align-content: center;
+        padding-top: 25px;
+        text-align: center;
+    }
+
+}
 
 /* .brandeis-title h1 h3{
     margin: 0;
@@ -53,6 +107,7 @@ body{
 #subtitle{
     /* font-size: 24px; */
     font-weight: lighter;
+    margin-top: 0px;
     letter-spacing: 0.4em;
 }
 
