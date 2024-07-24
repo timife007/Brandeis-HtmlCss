@@ -45,13 +45,6 @@ body{
     font-size: 43px;
 }
 
-/* .diversity small{
-    width: 100%;
-    padding-bottom: 0;
-    margin-top: 20px;
-    font-size: 13.5px;
-} */
-
 #div-subtitle a{
     font-size: 12px;
     text-decoration: none;
@@ -73,7 +66,6 @@ body{
     color: black
 }
 
-/*  */
 @media(max-width:1000px) {
 
     #div-subtitle{
@@ -88,16 +80,6 @@ body{
     }
 
 }
-
-/* .brandeis-title h1 h3{
-    margin: 0;
-}
-.brandeis-title h1{
-    margin-bottom: 0;
-}
-.brandeis-title h3{
-    margin-top: 0;
-} */
 
 #title{
     font-size: 40px;
@@ -120,12 +102,17 @@ body{
 
 #main-footer{
     background-color: #555;
-    padding-left: 100px;
+    min-height: 400px;
+}
+
+#footer-top{
+    /* background-color: #555; */
+    padding-left: 300px;
     padding-top: 70px;
+    width: 100%;
     color: white;
     display: flex;
-    height: 100%;
-    justify-content: flex-start;
+    height: 35%;
     gap: 150px;
 }
 
@@ -138,24 +125,55 @@ body{
     margin-bottom: 15px;
 }
 
-/* #footer-content{
-    width: 75%;
-    justify-content: space-between;
-    gap: 50px;
-} */
-
-#explore-section{
-}
-
 .foot-title{
     font-size: 25px;
 }
 
-#contact-section{
+
+#main-footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#contact-section a{
+    text-decoration: none;
+    color: white;
+}
+
+#contact-section a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+#main-footer ul li a:hover{
+    text-decoration: underline;
+    color: white;
 }
 
 
-#find-section{
+#brandeis-footer-title{
+    color: white;
+    padding-left: 300px;
+}
+
+#info-body{
+    height: 100%;
+}
+
+#footer-bot-row{
+    display: flex;
+    padding-left: 300px;
+    color: white;
+}
+
+#footer-bot-row a{
+    color: white;
+    text-decoration: none;
+}
+
+#footer-bot-row a:hover{
+    color: white;
+    text-decoration: underline;
 }
 
 
