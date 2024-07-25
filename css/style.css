@@ -110,7 +110,7 @@ body{
     /* align-content: flex-start; */
     background-color: #555;
     width: 100%;
-    height: 100%;
+    height: 50%;
     margin-bottom: 0;
     /* height: 1000px; */
     /* display: flex; */
@@ -134,7 +134,7 @@ body{
     flex-direction: row;
     /* justify-content: space-evenly; */
     /* height: 35%; */
-    gap: 5%;
+    gap: 10%;
 }
 
 #contact-section{
@@ -209,8 +209,8 @@ body{
     background-color: #555;
     color: white;
     padding-bottom: 30px;
-    width: 100%;
-    gap: 5%;
+    /* width: 100%; */
+    gap: 8.5%;
 }
 
 #footer-bot-row a{
