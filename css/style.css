@@ -3,7 +3,10 @@ body{
     color: #555;
     font-family:'Times New Roman', Times, serif;
     font-size: 16px;
-    margin: 0;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .brandeis-title{
@@ -18,12 +21,13 @@ body{
 
 
 .diversity{
+    display: block;
     background-color: #f4f4f4;
     color: black;
     width: 100%;
     font-size: x-large;
     min-height: 120px;
-    padding: 10px;
+    padding-top: 10px;
     box-shadow:slategray;
     text-align: center;
     align-content: center;
@@ -78,7 +82,6 @@ body{
         padding-top: 25px;
         text-align: center;
     }
-
 }
 
 #title{
@@ -94,26 +97,62 @@ body{
 }
 
 #brandeis-header{
-    background-color: whites;
+    background-color: white;
     color: navy;
     height: 100px;
     width: 100%;
 }
 
 #main-footer{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-content: flex-start; */
     background-color: #555;
-    min-height: 400px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+    /* height: 1000px; */
+    /* display: flex; */
+    /* max-width: 1000px; */
+    /* flex-direction: column; */
+    /* padding-left: 10%;
+    padding-top: 70px; */
+    /* height: 35%; */
+    /* justify-content: space-evenly; */
+    /* gap: 5%; */
+    /* min-height: 400px; */
+    /* width: 100%; */
 }
 
 #footer-top{
-    /* background-color: #555; */
-    padding-left: 300px;
+    padding-left: 10%;
     padding-top: 70px;
-    width: 100%;
     color: white;
     display: flex;
-    height: 35%;
-    gap: 150px;
+    background-color: #555;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    /* height: 35%; */
+    gap: 5%;
+}
+
+#contact-section{
+    /* flex: 1; */
+    /* flex-shrink: 1;
+    flex-grow: 1; */
+}
+
+#explore-section{
+    /* flex: 1; */
+    /* flex-shrink: 1;
+    flex-grow: 1; */
+}
+
+#find-section{
+    /* flex: 1; */
+    /* flex-shrink: 1;
+    flex-grow: 1; */
 }
 
 #main-footer ul{
@@ -127,6 +166,7 @@ body{
 
 .foot-title{
     font-size: 25px;
+    background-color: #555;
 }
 
 
@@ -153,17 +193,24 @@ body{
 
 #brandeis-footer-title{
     color: white;
-    padding-left: 300px;
+    background-color: #555;
+    padding-left: 10%;
 }
 
 #info-body{
-    height: 100%;
+    height: 1000px;
+    width: 100%;
+    background-color: white;
 }
 
 #footer-bot-row{
     display: flex;
-    padding-left: 300px;
+    /* justify-content: flex-start; */
+    background-color: #555;
     color: white;
+    padding-bottom: 30px;
+    width: 100%;
+    gap: 5%;
 }
 
 #footer-bot-row a{
@@ -175,5 +222,10 @@ body{
     color: white;
     text-decoration: underline;
 }
+
+/* 
+@media () {
+    
+} */
 
 
