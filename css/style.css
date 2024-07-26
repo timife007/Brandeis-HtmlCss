@@ -12,7 +12,7 @@ body{
 .brandeis-title{
     overflow: hidden;
     word-spacing: normal;
-    padding-left: 30px;
+    padding-left: 10%;
     padding-top: 10px;
     padding-bottom: 10px;
     height:100%;
@@ -64,16 +64,85 @@ body{
     font-size: 15px;
 }
 
+#div-subtitle{
+    visibility: collapse;
+}
+
+#brandeis-header{
+    background-color: white;
+    color: navy;
+    /* margin-left: 10%; */
+    /* padding-left: 10%; */
+    /* padding-right: 10%; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+#nav-button{
+    background-color: navy;
+    color: white;
+    height: 45px;
+    align-self: center;
+    display: flex;
+    cursor:pointer;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    width: 45px;
+    border-radius: 7px;
+}
+.search-icon{
+    fill: white;
+}
+
+#search-button{
+    background-color: navy;
+    color: white;
+    height: 45px;
+    align-self: center;
+    display: flex;
+    cursor:pointer;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    border-radius: 7px;
+    border: 0;
+}
+
+
+
+#nav-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-right: 10%;
+}
+
+.hamburger-icon {
+    fill: white;
+}
+
+.hamburger-icon span {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    border-radius: 2px;
+    transition: all 0.3s;
+}
+
 #div-subtitle research{
     font-size: 13px;
     font-weight: bolder;
     color: black
 }
 
-@media(max-width:1000px) {
+@media(min-width:1025px) {
 
     #div-subtitle{
-        visibility: collapse;
+        visibility: visible;
     }
 
     .diversity{
@@ -96,12 +165,7 @@ body{
     letter-spacing: 0.4em;
 }
 
-#brandeis-header{
-    background-color: white;
-    color: navy;
-    height: 100px;
-    width: 100%;
-}
+
 
 #main-footer{
     /* display: flex; */
@@ -110,7 +174,7 @@ body{
     /* align-content: flex-start; */
     background-color: #555;
     width: 100%;
-    height: 50%;
+    /* height: 50%; */
     margin-bottom: 0;
     /* height: 1000px; */
     /* display: flex; */
@@ -198,18 +262,72 @@ body{
 }
 
 #info-body{
-    height: 1000px;
-    width: 100%;
+    /* height: 1000px; */
+    padding: 20px;
     background-color: white;
+}
+
+#info-body h1{
+    font-size: 35px;
+    color: black;
+}
+
+#info-body table{
+    width: 100%;
+    table-layout: fixed;
+}
+
+#table-header{
+    /* height: 55px; */
+    align-items: start;
+    background-color: navy;
+    color: white;
+    width: 100%;
+}
+
+#info-body a{
+    color: navy;
+    text-decoration-color: navy;
+    text-decoration: underline;
+}
+
+#info-body a:hover{
+    color: rgb(9, 73, 9);
+    text-decoration-color: rgb(9, 73, 9);
+    text-decoration: underline;
+}
+
+
+#table-header tr{
+    padding: 20px;
+}
+
+#table-header th{
+    padding: 20px;
+    text-align: left;
+}
+
+td{
+    padding: 20px;
+    font-weight:bold;
+    font-size: large;
+}
+
+.index-odd{
+    background-color: whitesmoke;
+    color: black;    
+}
+
+.index-even{
+    background-color: white;
+    color: black;
 }
 
 #footer-bot-row{
     display: flex;
-    /* justify-content: flex-start; */
     background-color: #555;
     color: white;
     padding-bottom: 30px;
-    /* width: 100%; */
     gap: 8.5%;
 }
 
@@ -222,10 +340,4 @@ body{
     color: white;
     text-decoration: underline;
 }
-
-/* 
-@media () {
-    
-} */
-
 
