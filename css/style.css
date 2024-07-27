@@ -5,7 +5,6 @@ body{
     font-size: 16px;
     margin: 0px;
     width: 100%;
-    display: flex;
     flex-direction: column;
 }
 
@@ -30,7 +29,10 @@ body{
     padding-top: 10px;
     box-shadow:slategray;
     text-align: center;
+    justify-content: center;
     align-content: center;
+    align-items: center;
+    align-self: center;
 }
 
 #div-title:hover{
@@ -68,12 +70,44 @@ body{
     visibility: collapse;
 }
 
+.breadcrumb{
+    visibility: collapse;
+    margin-top: 10px;
+}
+
+.breadcrumb ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+
+    margin: 0;
+    justify-content: center;
+}
+
+.breadcrumb li{
+    font-size: 13px;
+}
+
+.breadcrumb li:not(:last-child) ::after{
+    display: inline-block;
+    color: black;
+    margin: 0 .25rem;
+    content: "/";
+}
+
+.breadcrumb a{
+    color:navy;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover{
+    text-decoration: underline;
+}
+
+
 #brandeis-header{
     background-color: white;
     color: navy;
-    /* margin-left: 10%; */
-    /* padding-left: 10%; */
-    /* padding-right: 10%; */
     height: 100px;
     width: 100%;
     display: flex;
@@ -141,7 +175,7 @@ body{
 
 @media(min-width:1025px) {
 
-    #div-subtitle{
+    .breadcrumb{
         visibility: visible;
     }
 
@@ -168,25 +202,9 @@ body{
 
 
 #main-footer{
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-content: flex-start; */
     background-color: #555;
     width: 100%;
-    /* height: 50%; */
     margin-bottom: 0;
-    /* height: 1000px; */
-    /* display: flex; */
-    /* max-width: 1000px; */
-    /* flex-direction: column; */
-    /* padding-left: 10%;
-    padding-top: 70px; */
-    /* height: 35%; */
-    /* justify-content: space-evenly; */
-    /* gap: 5%; */
-    /* min-height: 400px; */
-    /* width: 100%; */
 }
 
 #footer-top{
