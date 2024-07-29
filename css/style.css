@@ -217,8 +217,8 @@ body{
 #footer-top{
     padding-top: 70px; 
     gap: 10px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Create 3 equal columns */
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 1fr);  */
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 50px;
@@ -347,17 +347,19 @@ td{
 }
 
 #footer-bot-row{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Create 3 equal columns */
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
     gap: 10px; /* Gap between grid items */
     padding: 10px;
     background-color: #555;
     font-size: 13px;
     color: white;
-    /* padding-bottom: 30px; */
 }
 
-
+#footer-top hr{
+    height: 1px;
+    background-color: lightgray;
+}
 
 
 #footer-bot-row a{
