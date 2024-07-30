@@ -375,3 +375,28 @@ td{
     text-decoration: underline;
 }
 
+@media (min-width: 512px) {
+    #footer-top{
+        padding-top: 70px; 
+        gap: 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 50px;
+        background-color: #555;
+        font-size: 13px;
+        color: white;
+    }
+
+    #footer-bot-row{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px; /* Gap between grid items */
+        padding: 10px;
+        background-color: #555;
+        font-size: 13px;
+        color: white;
+    }
+}
+
